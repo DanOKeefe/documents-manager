@@ -2,8 +2,6 @@ import os
 import uuid
 import boto3
 import streamlit as st
-import datetime
-from pymongo import MongoClient
 from pdfminer.high_level import extract_text
 from transformers import pipeline, AutoTokenizer
 from dotenv import load_dotenv
