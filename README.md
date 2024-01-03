@@ -42,19 +42,19 @@ HF_MODEL="Falconsai/text_summarization"
 S3_BUCKET="your_bucket_name"
 ```
 
-## 📑 How to Use
+### 📑 How to Use
 
 Start the app using ```streamlit run Home.py```
 
-## View Documents
+### View Documents
 
 Open the page 1_View_Documents to view the documents. You can select a document from the dropdown to view its summary.
 
-# Upload Documents
+### Upload Documents
 
 Open 2_Upload_Documents to upload a document. You can upload a PDF file, which will be stored in S3 and its metadata will be stored in DynamoDB. The document will be summarized using a transformer model.
 
- 📚 Built With
+## 📚 Built With
  - [Streamlit](https://streamlit.io/)
  - [AWS S3](https://aws.amazon.com/s3/)
  - [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
