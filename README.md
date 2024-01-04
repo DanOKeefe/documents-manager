@@ -1,12 +1,8 @@
 # 📄 Documents Manager 📚
 
-This project is a document management system that allows users to view and upload documents. It uses Streamlit for the web interface, AWS S3 for storage, DynamoDB for metadata storage, and a transformer model for summarizing the documents.
+This project is a document management app that allows users to view and upload PDF documents. It uses Streamlit for the web interface, AWS S3 for document storage, DynamoDB for metadata storage, and a transformer model for summarizing the documents.
 
 ## 🚀 Getting Started
-
-### Prerequisites
-
-git, Python 3, pip
 
 ### Steps
 
